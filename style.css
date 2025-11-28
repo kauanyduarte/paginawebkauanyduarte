@@ -1,0 +1,112 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações Policiais no Rio de Janeiro - Análise</title>
+    <!-- Incluindo Tailwind CSS para estilização moderna e responsiva -->
+    <!-- Todo o CSS está agora dentro das classes no corpo do documento ou é importado aqui. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- A cor de fundo e a fonte padrão foram movidas para classes no <body> -->
+<body class="antialiased text-gray-800 bg-[#f0f4f8] font-sans">
+
+    <!-- Estrutura Principal da Página -->
+    <div class="min-h-screen flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
+        
+        <!-- Cabeçalho (Header) -->
+        <header class="w-full max-w-4xl mb-10 p-6 bg-white shadow-xl rounded-xl">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-blue-700 mb-2">
+                Operações Policiais no Rio de Janeiro
+            </h1>
+            <p class="text-lg text-gray-600 border-b-2 border-blue-100 pb-4">
+                Análise e Contexto de Segurança Pública. Conteúdo com foco educacional.
+            </p>
+        </header>
+
+        <!-- Conteúdo Principal (Main Content) -->
+        <main class="w-full max-w-4xl space-y-8">
+
+            <!-- Seção 1: Contextualização Geral -->
+            <section class="p-6 bg-white shadow-lg rounded-xl transition duration-300 hover:shadow-2xl">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-3 border-l-4 border-blue-500 pl-3">
+                    A Dinâmica da Segurança Pública
+                </h2>
+                <p class="text-base leading-relaxed text-gray-700">
+                    O estado do Rio de Janeiro, especialmente sua capital, lida com um complexo cenário de segurança pública,
+                    caracterizado pela presença de grupos criminosos organizados em diversas comunidades. As operações policiais
+                    são uma das estratégias adotadas pelo Estado, visando o combate direto ao tráfico de drogas e milícias, e a
+                    recuperação do controle territorial em áreas de risco.
+                </p>
+            </section>
+
+            <!-- Seção 2: Objetivos e Tipologia das Operações -->
+            <section class="p-6 bg-white shadow-lg rounded-xl transition duration-300 hover:shadow-2xl">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-3 border-l-4 border-blue-500 pl-3">
+                    Propósitos e Tipos de Ações
+                </h2>
+                <p class="text-base leading-relaxed text-gray-700 mb-4">
+                    As operações geralmente têm como objetivos a apreensão de armamentos, a desarticulação de pontos de venda de drogas,
+                    e o cumprimento de mandados de prisão contra lideranças ou suspeitos procurados pela justiça. Elas podem ser classificadas como:
+                </p>
+                
+                <!-- Lista de Tipos (Sem Botões) -->
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                    <li class="p-2 bg-blue-50 rounded-md">
+                        <strong class="font-medium text-blue-800">Operações de Inteligência:</strong> Focadas no cumprimento de mandados e ações cirúrgicas baseadas em investigação.
+                    </li>
+                    <li class="p-2 bg-blue-50 rounded-md">
+                        <strong class="font-medium text-blue-800">Ocupações de Território:</strong> Ações de maior escala, visando o controle de áreas por tempo determinado.
+                    </li>
+                    <li class="p-2 bg-blue-50 rounded-md">
+                        <strong class="font-medium text-blue-800">Ações de Choque:</strong> Resposta rápida a incidentes de grande violência ou perturbação da ordem.
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Seção 3: Debate e Impactos Sociais -->
+            <section class="p-6 bg-white shadow-lg rounded-xl transition duration-300 hover:shadow-2xl">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-3 border-l-4 border-blue-500 pl-3">
+                    Debate e Consequências Humanas
+                </h2>
+                <p class="text-base leading-relaxed text-gray-700 mb-4">
+                    O tema das operações é central no debate público brasileiro. De um lado, há o argumento da necessidade de repressão
+                    ao crime organizado. De outro, há a preocupação com os <strong class="text-red-600">direitos humanos</strong>, especialmente
+                    nas comunidades mais vulneráveis, e o impacto na rotina dos moradores.
+                </p>
+                <div class="bg-yellow-50 border-l-4 border-yellow-500 text-yellow-800 p-4 rounded-md" role="alert">
+                    <p class="font-semibold">Ponto de Atenção:</p>
+                    <p class="text-sm">A necessidade de políticas públicas que vão além da ação policial, como investimento social e infraestrutura, é constantemente levantada por especialistas.</p>
+                </div>
+            </section>
+            
+            <!-- Seção 4: Ilustração (Imagem Placeholder) -->
+            <section class="image-section text-center p-6 bg-gray-700 rounded-xl shadow-inner">
+                <h2 class="text-2xl font-semibold text-white mb-4">
+                    Representação Visual (Placeholder)
+                </h2>
+                <img 
+                    src="https://placehold.co/800x250/3182CE/FFFFFF?text=Mapa+Contextual+do+Rio" 
+                    alt="Imagem ilustrativa de um mapa conceitual do Rio de Janeiro focado em segurança."
+                    class="w-full h-auto rounded-lg shadow-xl"
+                    onerror="this.onerror=null; this.src='https://placehold.co/800x250/3182CE/FFFFFF?text=Conteúdo+Visual+Indisponível';"
+                />
+                <p class="text-sm text-gray-300 mt-2">
+                    Esta imagem serve para ilustrar a complexidade geográfica e social da região.
+                </p>
+            </section>
+            
+        </main>
+
+        <!-- Rodapé (Footer) -->
+        <footer class="w-full max-w-4xl mt-10 p-4 text-center text-sm text-gray-500 border-t border-gray-300">
+            <p>Página desenvolvida em HTML e Tailwind CSS para fins educacionais e acadêmicos.</p>
+            <p>
+                Demonstração de estrutura e estilo front-end.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
